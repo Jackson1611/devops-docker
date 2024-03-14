@@ -1,0 +1,13 @@
+docker run -d --name web_service_alpine devopsdockeruh/simple-web-service:alpine
+4846dc729d0ad9d88d1c8f2defe92c4cfb39d1ccde7c474fe3b71b86a8b3e392
+
+D:\devops\part 1>
+D:\devops\part 1>docker exec -it web_service_alpine sh
+/usr/src/app # tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-03-14 10:16:34 +0000 UTC
+2024-03-14 10:16:36 +0000 UTC
+2024-03-14 10:16:38 +0000 UTC
+2024-03-14 10:16:40 +0000 UTC
+2024-03-14 10:16:42 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
