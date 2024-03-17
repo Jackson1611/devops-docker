@@ -1,0 +1,2 @@
+docker run --rm --privileged=true -d -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+4386e57c4f79e687f84498f7df90015a8ffbb902714148987b35e82afd2df261
